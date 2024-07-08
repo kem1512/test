@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<button @click="text = 123">click me {{ text }}</button>
+		<button @click="text = 'Hi'">click me {{ text }}</button>
 	</div>
 </template>
 
@@ -9,3 +9,5 @@ import { ref } from 'vue';
 
 const text = ref("Hello World!")
 </script>
+
+<style scoped></style>
